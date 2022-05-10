@@ -19,7 +19,7 @@ jobs:
         run: |
           # Your ML workflow goes here
           pip install -r requirements.txt
-          ipython -c "%run rl_tp.ipynb
+          python rl_tp.ipynb
           
           echo "Metrique de mon Modele"
           cat "metrics.txt"
